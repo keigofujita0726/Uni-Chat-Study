@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 export function Header() {
   return (
@@ -26,9 +27,11 @@ export function Header() {
           </nav>
 
           <div className="flex items-center space-x-4">
+            <Link href="https://lin.ee/DMa2qbR" target="_blank" rel="noopener noreferrer">
             <Button variant="outline" className="text-blue-600 border-blue-600 bg-transparent">
-              資料請求
+              資料請求する
             </Button>
+            </Link>
             <Button className="bg-blue-600 hover:bg-blue-700">今すぐ申し込む</Button>
           </div>
         </div>

@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
+import Link from "next/link"
 
 export function HeroSection() {
   return (
@@ -21,12 +22,16 @@ export function HeroSection() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
+              <Link href="https://lin.ee/DMa2qbR" target="_blank" rel="noopener noreferrer">
               <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
                 無料体験に申し込む
               </Button>
+              </Link>
+              <Link href="https://lin.ee/DMa2qbR" target="_blank" rel="noopener noreferrer">
               <Button size="lg" variant="outline" className="text-blue-600 border-blue-600 bg-transparent">
                 資料請求する
               </Button>
+              </Link>
             </div>
           </div>
 
