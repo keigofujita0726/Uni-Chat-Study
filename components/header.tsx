@@ -32,7 +32,9 @@ export function Header() {
               資料請求する
             </Button>
             </Link>
+            <Link href="https://lin.ee/DMa2qbR" target="_blank" rel="noopener noreferrer">
             <Button className="bg-blue-600 hover:bg-blue-700">今すぐ申し込む</Button>
+            </Link>
           </div>
         </div>
       </div>
